@@ -43,6 +43,7 @@ A visualisation of the chessboard is provided, showing the valid placement of qu
 
 ## Code Highlights
 Fitness Function: Evaluates the number of diagonal conflicts:
+
 def evalNQueens(individual):
     diagonal_conflicts = 0
     for i in range(len(individual)):
