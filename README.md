@@ -25,14 +25,20 @@ pip install deap numpy matplotlib
 
 ## **How It Works**
 Initialization: Generate a population of random permutations for queen positions.
+
 Fitness Evaluation: Count the number of diagonal conflicts for each solution.
+
 Selection: Use tournament selection to choose the best solutions for reproduction.
+
 Crossover and Mutation: Combine and mutate solutions to explore new possibilities.
+
 Evolution: Iterate over generations to improve the population.
+
 Output: The algorithm outputs a conflict-free solution and a visualisation of the chessboard.
 
 ## Results
 The genetic algorithm successfully finds a solution with no queens attacking each other.
+
 A visualisation of the chessboard is provided, showing the valid placement of queens.
 
 ## Code Highlights
@@ -50,6 +56,7 @@ Used to handle population initialization, genetic operations, and evolution.
 
 ## Customization:
 Update the number of queens (NB_QUEENS) to solve larger board sizes (e.g., 12-Queens).
+
 Adjust parameters like population size, crossover probability, mutation probability, and generations for experimentation.
 
 ## About This Project:
